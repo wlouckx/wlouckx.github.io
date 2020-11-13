@@ -1,6 +1,6 @@
 <html>
 <head>
-
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>testpage</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>new function(url) {function kw(){var e = document.getElementsByTagName('meta');for (var i in e){if (typeof e[i].name != 'undefined' && e[i].name == 'keywords' && typeof e[i].content != 'undefined') return e[i].content;}return null;}var or = window.location.origin + window.location.pathname;var ep={'kw': encodeURIComponent(kw()),'href': encodeURIComponent(or)};var s = document.createElement('script');s.src = url;var helper=function(){var c = CEMClass().setUrl(url);for (var i in ep){c.setStaticParam(i, ep[i]);}};var first = true;for (var i in ep){s.src = s.src + (first ? '?' : '&') + i + '=' + encodeURIComponent(ep[i]);first=false;}s.onreadystatechange=function(){if (this.readyState=='complete') helper();};s.onload=helper;document.getElementsByTagName('head')[0].appendChild(s);}('https://t.testing.lianacem.com/t/5fabea7d6801b/js');</script>
