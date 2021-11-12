@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Issue with ops/auth/auth",
+		"message": "Checkout ops/auth/auth from archive/master.\\nUpgrade submodules manually"
+	},
+	{
+		"title": "Notifications enabled!",
+		"message": "You will now get fancy messages like this when running bin/projects."
+	},
+  {
+		"title": "Fetched from the internet!",
+		"message": "this is fetched from the internet"
+	}
+]
