@@ -7,10 +7,6 @@
 <script>new function(url) {function kw(){var e = document.getElementsByTagName('meta');for (var i in e){if (typeof e[i].name != 'undefined' && e[i].name == 'keywords' && typeof e[i].content != 'undefined') return e[i].content;}return null;}function getTrackingCookie() {var regexResult = document.cookie.match('(^|;)\\s*liana_t\\s*=\\s*([^;]+)');return regexResult ? regexResult.pop() : '';}var or = window.location.origin + window.location.pathname;var ep={'kw': encodeURIComponent(kw()),'href': encodeURIComponent(or),'liana_t': encodeURIComponent(getTrackingCookie())};if (window.location.search) {window.location.search.substr(1).split('&').forEach(function(i) {if(i.match('^utm=')) {ep['utm'] = i.split('=')[1];}});}var s = document.createElement('script');s.src = url;var helper=function(){var c = CEMClass().setUrl(url);for (var i in ep){c.setStaticParam(i, ep[i]);}};var first = true;for (var i in ep){s.src = s.src + (first ? '?' : '&') + i + '=' + encodeURIComponent(ep[i]);first=false;}s.onreadystatechange=function(){if (this.readyState=='complete') helper();};s.onload=helper;document.getElementsByTagName('head')[0].appendChild(s);}('https://t3.lianacem.com/t/5f69d54aad412/js');</script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFXXVX3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <p>some wonderful content</p>
 <form id="formid" name="formname">
   <label for="fname">First name:</label><br>
